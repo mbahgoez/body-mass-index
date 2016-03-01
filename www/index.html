@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter" ng-controller="main">
+
+    
+      
+    <div class="bar bar-header bar-assertive">
+      <h2 class="title">
+        Body Mass Index
+      </h2>
+
+      <a href="#" ng-click="totop" class="fab">
+        <i class="icon ion-chevron-up"></i>
+      </a>
+    </div>
+    <ion-content class="stable-bg has-header">
+    
+
+
+      <div class="card">
+
+      <div class="list list-inset">
+      
+        <label class="item item-input item-floating-label">
+          <h3>Berat :</h3>
+          <span class="input-label">Masukan Berat Tubuh (Kg)</span>
+          <input type="text" placeholder="Masukan Berat Tubuh (Kg)">
+        </label>
+      </div>
+<hr>
+      <div class="list list-inset">
+
+
+        <label class="item item-input item-floating-label">
+        <h3>Tinggi :</h3>          
+          <span class="input-label">Masukan Tinggi Tubuh (Cm)</span>
+          <input type="text" placeholder="Masukan Tinggi Tubuh (Cm)">
+        </label>
+      </div>
+      </div>
+        
+      <div style="padding:0px 10px;margin-top:0px;">
+          <button style="border:none;box-shadow:0px 1px 1px 0px #ccc;" class="button button-block button-assertive">
+            Hitung BMI
+          </button>
+      </div>
+      
+      <div class="card-item">
+        <h2>Did You Know?</h2>
+        
+        <i class="icon ion-help" style="font-size:80px"></i>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam eum eius facilis omnis beatae, laboriosam tenetur, dolore ullam est doloremque repudiandae optio itaque, expedita, ab cum magnam ipsam mollitia temporibus.</p>
+
+      </div>
+    
+
+
+
+    </ion-content>
+
+
+
+  </body>
+</html>

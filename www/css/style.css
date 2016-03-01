@@ -1,0 +1,64 @@
+.slider {
+	height:100vh;
+}
+ion-content {
+	height:100%;
+}
+
+.card {
+	margin:10px;
+	padding:0px;
+}
+.card-item {
+	background:#fff;
+	box-shadow: 0px 0px 3px #ccc;
+	text-align: center;
+	margin:30px;
+	padding:20px;
+}
+
+.card-item h2 {
+	font-family: 'railway';
+}
+.card-item p {
+	font-family: 'lato';
+	color:#555;
+}
+
+.list input {
+	width:95%;
+	padding:10px;
+	margin-bottom:20px;
+	box-shadow:0px 0px 1px 0px #ccc;
+}
+
+hr {
+	border:1px solid #f8f8f8;
+}
+
+.button-card {
+	margin:0px 30px;
+}
+
+body {
+	font-family: 'lato';
+}
+
+.fab {
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:-470px;
+	right:10px;
+	background: #333;
+	display: block;
+	color:#fff;
+	background:#EB1616;
+	padding:16px;
+	border-radius: 100%;
+	box-shadow:0px 2px 2px 0px #555;
+}
+
+.fab i {
+	font-size: 30px;
+}

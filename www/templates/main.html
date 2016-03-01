@@ -1,0 +1,76 @@
+<ion-nav-view>
+	<ion-header-bar class="bar bar-light">
+        <button
+          ng-click="prevSlide()"
+          ng-hide="slideByIndex == 0" 
+          class="button 
+          button-clear 
+          button-left 
+          button-assertive  
+          ">
+          <i class="icon ion-ios-arrow-left"></i>
+         
+        </button>
+        
+
+        <button
+        ng-click="nextSlide()"
+        ng-hide="slideByIndex == 2" 
+        class="button 
+        button-clear
+        button-assertive
+        ">
+         
+         <i class="icon ion-ios-arrow-right"></i>
+        </button>
+      </ion-header-bar>
+
+      <ion-slide-box
+      show-pager="true"
+      on-slide-changed="slideHasChanged(index)">
+        <ion-slide>
+          <ion-content class="stable-bg">
+
+            <div class="card">
+              <h2 class="title text-center">Lorem Ipsum</h2>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi facere, vitae quis accusantium soluta eveniet. Accusamus atque facilis</p>
+              <h2 class="text-center" style="margin:0">
+                <i style="font-size:3em;color:#35AEF3;" class="icon ion-ionic"></i>
+              </h2>
+            
+              <button ng-click="openModal()" class="button button-block button-assertive">
+                Try and Play
+              </button>  
+            </div><!-- card -->
+
+
+
+            
+          </ion-content>
+        </ion-slide>
+
+        <ion-slide>
+          <ion-content class="stable-bg">
+            <div class="card">
+              <h2 class="title text-center">Lorem Ipsum</h2>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi facere, vitae quis accusantium soluta eveniet. Accusamus atque facilis eius beatae illum sapiente perspiciatis, temporibus pariatur, possimus laboriosam sequi.</p>
+              <h2 class="text-center">
+                <i class="icon ion-erlenmeyer-flask"></i>
+              </h2>
+            </div>
+          </ion-content>
+        </ion-slide>
+
+        <ion-slide>
+          <ion-content class="stable-bg">
+            <div class="card">
+              <h2 class="title text-center">Lorem Ipsum</h2>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi facere, vitae quis accusantium soluta eveniet. Accusamus atque facilis eius beatae illum sapiente perspiciatis, temporibus pariatur, possimus laboriosam sequi.</p>
+              <h2 class="text-center">
+                <i class="icon ion-connection-bars"></i>
+              </h2>
+            </div>
+          </ion-content>
+        </ion-slide>
+      </ion-slide-box>
+</ion-nav-view>
